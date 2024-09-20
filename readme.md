@@ -16,7 +16,7 @@ function login(username, password) {
 
 
   let cart = [];
-  function addToCart(item) {    
+  function addingToCart(item) {    
     if (isLoggedIn) {
       cart.push(item);
       console.log("Login success items are ready to be added to cart");
@@ -26,7 +26,7 @@ function login(username, password) {
   }
 
   login("user1", "password1");
-  addToCart("item");
+  addingToCart("item");
 ```
 
 **Task 2**  Use a loop to display the list of available products to the user and add functionality for users to add products to their cart. You can hard code this out by just creating item variables or for EXTRA CREDIT figure out a way to grab user inputs using prompt(). 
